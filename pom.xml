@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.palmergames.bukkit.towny</groupId>
-    <artifactId>Towny</artifactId>
+    <artifactId>Towny-SiegeWar</artifactId>
     <packaging>jar</packaging>
     <version>0.96.5.12</version>
 
@@ -160,7 +160,7 @@
 
     <build>
         <defaultGoal>clean package</defaultGoal>
-        <finalName>${project.artifactId}-SeigeWar-${project.version}-SNAPSHOT+${git.commit.id.abbrev}</finalName>
+        <finalName>${project.artifactId}-${project.version}-SNAPSHOT+${git.commit.id.abbrev}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
