@@ -3,7 +3,7 @@ name: Published Release / PreRelease
 on:
     release:
         types: [released]
-        branches: [master]
+        branches: [main]
 jobs:
     build:
         runs-on: ubuntu-latest
